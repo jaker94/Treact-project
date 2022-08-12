@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lato:wght@400;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Lato:wght@400;700&family=Roboto:wght@300&display=swap');
 *{
     padding:0;
     margin: 0;
@@ -30,6 +30,10 @@ a{
     margin: 0 auto;
 }
 
+.text--purple{
+    color: rgba(100,21,255)
+}
+
 
 
 /* NAVIGATION */
@@ -39,22 +43,29 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-top:24px;
+    
 }
 
 .nav__links{
     display:flex;
+    align-items: center;
     list-style-type:none;
     font-weight: 500;
     font-size: 0.875rem;
-    color:black;
+    margin-top:24px;
 }
 
 .nav__link{
     padding-right:24px;
+    color:black;
+    letter-spacing: 0.025em;
+    margin: 0px 12px;
+    font-weight: 300;
 }
 
 ul li:nth-child(5){
     padding-left:24px;
+    
 }
 
 .logo{
@@ -70,12 +81,57 @@ ul li:nth-child(5){
 
 .text--hoverpurple{
     margin-left:8px;
-    font-weight:bold;
+    font-weight:900;
     font-size:24px;
     color:rgba(36,62,99);
 }
 
 .text--hoverpurple:hover{
-    color:rgba(36,62,99);
+    transition: all 300ms ease;
+    color: rgba(100,21,255)
 }
 
+.btn{
+    background-color:rgba(100,21,255);
+    border:none;
+    padding:12px 36px;
+    border-radius:9999px;
+    color:white;
+}
+
+.btn:hover{
+    background-color:rgb(68, 15, 167);
+    transition: all 500ms ease;
+}
+
+/* LANDING PAGE */
+
+.landing__container{
+    padding-top:6rem;
+    padding-bottom:6rem;
+    display: flex;
+    align-content: space-between;
+    
+}
+
+.landing__info{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    
+}
+
+.landing__info--header{
+    text-align: center;
+    font-size: 1.875rem;
+    
+}
+
+.landing__info--logo{
+    width:100%;
+}
+
+.landing__info--img{
+    width:60%;
+    margin-left:24px;
+}
