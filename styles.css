@@ -24,6 +24,18 @@ a{
     text-decoration:none;
 }
 
+h1, h2, h3,h4,h5{
+    margin-bottom:24px;
+}
+
+.row_lp{
+    padding:0 0 0 24px;
+    margin: 0 48px;
+    width:100%;
+    max-width:1280px;
+    margin: 0 auto;
+}
+
 .row{
     width:100%;
     max-width: 1280px;
@@ -34,6 +46,9 @@ a{
     color: rgba(100,21,255)
 }
 
+.container{
+    padding:80px 0;
+}
 
 
 /* NAVIGATION */
@@ -106,6 +121,10 @@ ul li:nth-child(5){
 
 /* LANDING PAGE */
 
+#landing{
+    padding:0 24px;
+}
+
 .landing__container{
     padding-top:6rem;
     padding-bottom:6rem;
@@ -135,7 +154,7 @@ ul li:nth-child(5){
 }
 
 .landing__info--para{
-    font-size: 16px;
+    font-size: 18px;
     font-weight:lighter;
 }
 
@@ -149,6 +168,11 @@ ul li:nth-child(5){
     padding-top:6px;
     padding-bottom:6px;
     
+}
+
+.landing__info--input:hover{
+    border:2px solid darkgray;
+    transition:all 600ms ease;
 }
 
 input {
@@ -182,7 +206,6 @@ input {
 
 .landing__info--logo{
     margin-top:24px;
-    
 }
 
 .landing__info--imgs{
@@ -195,4 +218,31 @@ input {
     margin-left:24px;
     width:100%;
     height:100%;
+}
+
+/* FEATURES */
+
+.features__headers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.features__toph{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.features__midh{
+    font-size: 48px;
+    color:rgba(36,62,99);
+    font-weight: 800;
+}
+
+.features__bottomp{
+    text-align: center;
+    max-width:40%;
+    line-height:1.6rem;
 }
