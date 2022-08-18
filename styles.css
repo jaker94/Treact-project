@@ -28,6 +28,18 @@ h1, h2, h3,h4,h5{
     margin-bottom:24px;
 }
 
+h2{
+    font-size: 48px;
+    color:rgba(36,62,99);
+    font-weight: 800;
+}
+
+p{
+    color: rgba(124,139,161);
+    font-weight: 500;
+    line-height:2;
+}
+
 .row_lp{
     padding:0 0 0 24px;
     margin: 0 48px;
@@ -155,7 +167,8 @@ ul li:nth-child(5){
 
 .landing__info--para{
     font-size: 18px;
-    font-weight:lighter;
+    color:black;
+    font-weight:400;
 }
 
 .landing__info--input{
@@ -243,19 +256,19 @@ input {
 
 .features__bottomp{
     text-align: center;
-    max-width:40%;
+    max-width:45%;
     line-height:1.6rem;
     color:rgba(124,139,161);
     font-weight: 500;
     margin-bottom: 36px;
+    font-size: 1.125rem;
 }
 
 .icons{
     display:flex;
     flex-wrap: wrap;
     margin: 0 16px;
-    align-content: center;
-    
+    width:100%;
     
 }
 
@@ -270,20 +283,44 @@ input {
     border: 1px solid lightgray;
     padding:20px;
     border-radius: 999px;
-    height: 40%;
+    height: 45%;
 }
 
 .icons__section--info{
     width:calc(100%/3);
     padding-left:24px;
     line-height: 1;
+    width:60%;
 }
 
 .icons__section--info-title{
     font-weight: 700;
+    color:rgba(36,62,99);
+
 }
 
 .icons__section--info-para{
-    color: rgba(124,139,161)
+    color: rgba(124,139,161);
+    font-weight: 500;
+    line-height:2;
+    
 }
 
+/* QUALITY */
+
+.quality{
+    display:flex;
+    
+    width:100%
+}
+
+.quality__info{
+    width:50%;
+
+}
+
+.quality__imgs{
+    border:1px solid lightgray;
+   transform: scale(.7);
+   
+}
