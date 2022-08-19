@@ -367,3 +367,39 @@ input {
 
 /* VALUES */
 
+.values{
+    display:flex;
+}
+
+.values__info{
+    width:50%;
+}
+
+.values__info--ap{
+    display:flex;
+}
+
+.values__info--aff-title,
+.values__info--prof-title{
+    display:flex;
+    margin-top:24px;
+}
+
+.vip__title--logo{
+    margin-right:8px;
+    border: 2px   solid  lightpink;
+    border-radius: 50px;
+    background-color: rgba(254,178,178);
+    color: rgba(155,44,44);
+    padding: 12px 12px;
+}
+
+
+
+.values__imgs{
+    width:50%;
+}
+
+.values__img{
+width:100%;
+}
