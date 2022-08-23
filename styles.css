@@ -498,6 +498,11 @@ width:100%;
     color:white;
 }
 
+.pch__monthly--business{
+    color:white;
+    margin: 24px 0;
+}
+
 
 .pricing__column--body{
     border:1px solid lightgray;
@@ -561,4 +566,9 @@ margin: 24px 0;
 
 .personal__btn{
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.business__btn{
+    background-color:white;
+    color: rgb(76, 81, 191);
 }
