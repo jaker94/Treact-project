@@ -595,3 +595,93 @@ margin: 24px 0;
 
 /* TESTIMONIALS */
 
+.testimonials{
+    display:flex;
+    width:100%;
+}
+
+.testimonial__img{
+    width:50%;
+    display:flex;
+    align-items: center;
+}
+
+.test__img{
+    width:100%;
+    
+   
+}
+.testimonial__info{
+    width:50%;
+    margin-left:48px;
+}
+
+.test__review--img{
+    margin:24px 0;
+}
+
+
+/* FAQS */
+
+.faqs{
+    text-align: center;
+}
+
+.faqs__para{
+    width:100%;
+}
+
+.faqs__img{
+    margin:48px 0;
+}
+
+/* Get started */
+
+.get__started--wrapper{
+    padding:3rem 0;
+    background-color: rgba(100,21,255);
+    display:flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.get__started--info{
+    width:50%;
+}
+
+.get__started--para{
+    color:white;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.get__started--btn-wrapper{
+ display: flex;
+ align-items: center;
+ 
+}
+
+.get__started--btn{
+    background-color:rgba(245,101,101);
+    color:white;
+    padding-right:24px;
+    margin-right:24px;
+    padding:24px 36px;
+    font-weight: 700;
+}
+
+.get__started--btn:hover{
+    background-color:rgb(218, 51, 51)
+}
+
+.contact__us{
+    border:1px solid white;
+    padding:24px 36px;
+    font-weight: 700;
+}
+
+.contact__us:hover{
+    background-color:white;
+    color:rgba(100,21,255);
+    transition: ease 300ms all;
+}
