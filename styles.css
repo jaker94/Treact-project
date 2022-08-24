@@ -477,19 +477,35 @@ width:100%;
     text-align: center;
 }
 
-.business__header{
-    padding-top:12px;
-}
-
 .pch__price--business{
     font-size:48px;
     color:white;
 }
 
-.business__column{
+.pricing__column--business{
+    width:calc(100%/3);
+    padding: 0 24px;
     background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     border-radius:8px;
     color:white;
+}
+
+.business__header{
+    text-align: center;
+    padding-top:12px;
+}
+
+.business__body{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.business__footer{
+    text-align: center;
+    padding-top:36px;
+    display: flex;
+    justify-content: center;
+    margin-top:36px;
 }
 
 .business__feature{
@@ -572,3 +588,10 @@ margin: 24px 0;
     background-color:white;
     color: rgb(76, 81, 191);
 }
+
+.enterprise__btn{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+/* TESTIMONIALS */
+
