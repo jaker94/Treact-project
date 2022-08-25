@@ -86,6 +86,14 @@ p {
   transition: all 500ms ease;
 }
 
+.btn__menu{
+    display:none;
+}
+
+.menu__backdrop{
+    display:none;
+}
+
 /* NAVIGATION */
 
 .nav__container {
@@ -792,6 +800,10 @@ footer {
 
 @media (max-width: 786px) {
 
+    .nav__link{
+        font-size:14px;
+    
+    }
 
   .landing__info--para {
     margin-bottom: 56px;
