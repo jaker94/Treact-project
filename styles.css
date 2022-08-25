@@ -904,9 +904,97 @@ footer {
 
 @media(max-width:550px){
 
+    .quality{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quality__info{
+        width:100%;
+        text-align: center;
+    }
+
+    .quality__header{
+        width:100%;
+    }
+
+    .quality_img{
+        width:100%;
+    }
+
+    
+
+    .values{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .values__img{
+        margin-top:36px;
+    }
+
+    .pricing__header{
+        width:100%;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial__img{
+        width:80%;
+    }
+
+   .testimonial__info{
+        margin-top:36px;
+        width:80%;
+    }
 
     .links{
         display:flex;
         flex-wrap: wrap;
     }
+
+    .faqs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:90%;
+    }
+
+    .faqs__para{
+        margin-left:24px;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    .get__started--wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 36px;
+    }
+
+    .get__started--btn-wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get__started--para{
+        font-size:24px;
+    }
+
+    .get__started--btn{
+        margin: 24px 0;
+    }
+
 }
