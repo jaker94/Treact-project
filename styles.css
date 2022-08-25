@@ -904,6 +904,24 @@ footer {
 
 @media(max-width:550px){
 
+    .landing__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing__info{
+        width:100%;
+    }
+
+    input{
+        font-size:18px;
+    }
+
+    .btn__input{
+    
+    }
+
     .quality{
         display: flex;
         flex-direction: column;
@@ -913,14 +931,20 @@ footer {
     .quality__info{
         width:100%;
         text-align: center;
+        display: flex;
+        align-items: center;
     }
 
-    .quality__header{
+    .quality__imgs{
         width:100%;
+        display: flex;
+        justify-content: center;
     }
 
-    .quality_img{
-        width:100%;
+    .quality__img{
+        padding:36px 0;
+        height:300px;
+        width:400px;
     }
 
     
