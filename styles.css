@@ -18,6 +18,7 @@ nav {
   display: flex;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -93,6 +94,7 @@ p {
 .menu__backdrop {
   display: none;
 }
+
 
 /* NAVIGATION */
 
@@ -194,6 +196,14 @@ ul li:nth-child(5) {
   padding-bottom: 6px;
 }
 
+.landing__info--input-email{
+  width:100%;
+  padding-left:24px;
+  padding:22px;
+  font-size:16px;
+  opacity:0.5;
+}
+
 .landing__info--input:hover {
   border: 2px solid darkgray;
   transition: all 600ms ease;
@@ -236,6 +246,7 @@ input {
   display: flex;
   justify-content: end;
   max-width: 60%;
+  padding-left:36px;
 }
 
 .landing__info--img {
@@ -300,7 +311,7 @@ input {
   border: 1px solid lightgray;
   padding: 20px;
   border-radius: 999px;
-  height: 45%;
+  height: 66px;
 }
 
 .icons__section--info {
@@ -346,7 +357,7 @@ input {
 }
 
 .btn__quality {
-  width: 25%;
+  width: 30%;
   margin-top: 24px;
 }
 
@@ -354,18 +365,33 @@ input {
 
 .step {
   display: flex;
+  align-items: center;
   width: 100%;
-}
-
-.step {
   margin-top: 40px;
 }
+
 
 .step__number {
   font-size: 2.25rem;
   color: rgba(203, 213, 224);
   margin-right: 16px;
   font-weight: 600;
+}
+
+.step__img--wrapper {
+  max-width:640px;
+  width:auto;
+
+}
+
+.step__img {
+  width:100%;
+}
+
+.step__info {
+  max-width:576px;
+  width:100%;
+  margin-left:64px;
 }
 
 /* VALUES */
@@ -424,6 +450,10 @@ input {
   width: 100%;
 }
 
+.btn__pricing {
+  width:30%;
+}
+
 /* PRICING */
 
 .pricing__header {
@@ -477,7 +507,6 @@ input {
 .pricing__column--header {
   border: 1px solid lightgray;
   border-top: transparent;
-  border-radius: 8px;
   text-align: center;
 }
 
@@ -494,26 +523,28 @@ input {
     rgb(76, 81, 191) 0%,
     rgb(102, 126, 234) 100%
   );
-  border-radius: 8px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   color: white;
 }
 
 .business__header {
   text-align: center;
-  padding-top: 12px;
+  padding:7px 0;
+  border-bottom:1px solid gray
 }
 
 .business__body {
   text-align: center;
   margin-bottom: 16px;
+  padding-top:28px
 }
 
 .business__footer {
   text-align: center;
-  padding-top: 36px;
   display: flex;
   justify-content: center;
-  margin-top: 36px;
+  padding: 24px;
 }
 
 .business__feature {
@@ -529,12 +560,12 @@ input {
 
 .pricing__column--body {
   border: 1px solid lightgray;
-  border-radius: 8px;
+
 }
 
 .pricing__column--footer {
   border: 1px solid lightgray;
-  border-radius: 8px;
+
 }
 
 .pch__title {
@@ -834,6 +865,16 @@ footer {
   .landing__info {
     width: 60%;
   }
+
+  .landing__info--header{
+    font-size:30px
+  }
+
+  .landing__info--para {
+    font-size:16px;
+    text-align: center;
+    margin:20px 0;
+  }
   .nav__links {
     display: none;
   }
@@ -923,11 +964,6 @@ footer {
     padding: 8px 14px;
   }
 
-  .step__img {
-    width: 40%;
-    height: 50%;
-    margin-right: 24px;
-  }
 
   .step {
     display: flex;
@@ -1050,6 +1086,11 @@ footer {
 
   .features__bottomp{
     width:150vh;
+  }
+
+  .step__img--wrapper {
+    display:flex;
+    justify-content: center;
   }
   
   .icons {
@@ -1419,3 +1460,9 @@ footer {
   }
 
 }
+
+@media (max-width: 550px) { 
+
+
+}
+
