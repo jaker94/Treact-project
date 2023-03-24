@@ -12,6 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
+hr{
+  border-bottom: 1px solid lightgray;
+  margin:0 -24px;
+}
+
 nav {
   height: 80px;
   display: flex;
@@ -558,13 +563,11 @@ padding: 0;
 .business__header {
   text-align: center;
   padding:4px 0;
-  border-bottom:1px solid gray
 }
 
 .business__body {
   text-align: center;
   padding-top:28px;
-  border-bottom: 1px solid gray;
 }
 
 .bottom__feature{
