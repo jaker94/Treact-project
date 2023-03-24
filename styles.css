@@ -8,7 +8,6 @@
   
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -17,10 +16,18 @@ nav {
   height: 80px;
   display: flex;
   width:100%;
+  justify-content: center;
 }
 
 main{
   padding:32px;
+}
+
+input, textarea {
+  outline:none;
+  border-top:none;
+  border-left:none;
+  border-right:none;
 }
 
 
@@ -100,6 +107,13 @@ p {
 }
 
 
+
+#landing{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* NAVIGATION */
 
 .nav__container {
@@ -131,6 +145,7 @@ p {
 ul li:nth-child(5) {
   padding-left: 24px;
 }
+
 
 .logo {
   width: 2.5rem;
@@ -209,10 +224,6 @@ padding-left: 32px;
 padding: 22px;
 }
 
-.landing__info--input:hover {
-  border: 2px solid darkgray;
-  transition: all 600ms ease;
-}
 
 input {
   border-top-style: hidden;
@@ -869,7 +880,7 @@ footer {
 
 /* SMALL MONITORS */
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
   
 
   .container{
@@ -879,8 +890,12 @@ footer {
 }
 
 @media (max-width: 1218px) {
+  .landing__info--header{
+    font-size:39px;
+  }
+
   .landing__info--para{
-    margin-top: 56px;
+    margin-top: 32px;
   }
 }
 
@@ -892,8 +907,8 @@ footer {
 
 @media(max-width:1024px) {
 
-  h1{
-    font-size:30px !important;
+  .landing__info--header{
+    font-size:30px;
   }
 
   .landing__info--para{
@@ -1105,6 +1120,13 @@ footer {
 
   .landing__info{
     text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .landing__info--input-email{
+    width: 500px;
   }
 
   .icons{
@@ -1218,8 +1240,8 @@ footer {
 }
 
 @media (max-width:640px) {
-  h1{
-    font-size: 24px !important;
+  .landing__info--header{
+    font-size: 24px;
   }
 
   .landing__info--header{
