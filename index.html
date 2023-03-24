@@ -10,9 +10,9 @@
     <script src="./index.js"></script>
 </head>
 <body>
+    <main>
     <section id="landing">
         <nav>
-            <div class="row_lp">
                 <div class="nav__container">
                     <figure class="nav__logo-title--wrapper">
                         <img class="logo" src="./assets/nav__logo.svg" alt="">
@@ -55,8 +55,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>    
+                </div>   
         </nav>
 
         <div class="container">
@@ -182,9 +181,9 @@
                         </p>
                         <button class="btn btn__quality">Learn More</button>
                     </div>
-                    <div class="quality__imgs">
+                    <figure class="quality__imgs">
                         <img class="quality__img"  src="./assets/hero-screenshot-1.40a097b5.png" alt="">
-                    </div>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -359,7 +358,29 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                             Rerum amet id consequatur velit culpa repudiandae fuga 
                             eveniet natus molestiae nisi ipsam ut, a obcaecati.</p>
-                        <img src="./assets/testimonial.png" alt="" class="test__review--img">    
+                            <div class="testimonial">
+                        <div class="value__star">
+                            <i class="fa-solid fa-star" style="color: #d9dd22;"></i>
+                            <i class="fa-solid fa-star" style="color: #d9dd22;"></i>
+                            <i class="fa-solid fa-star" style="color: #d9dd22;"></i>
+                            <i class="fa-solid fa-star" style="color: #d9dd22;"></i>
+                            <i class="fa-solid fa-star" style="color: #d9dd22;"></i>
+                        </div>
+                        <div class="test__title"> Amazing User Experience</div>
+                        <div class="test__para">Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Praesentium, aperiam optio! Accusantium 
+                            suscipit libero dolorem perferendis aspernatur, corporis quia 
+                            tenetur non facere autem minus, veritatis repudiandae numquam ea assumenda at.
+                        </div>
+                        <div class="test__bottom">
+                        <figure class="test_img--wrapper">
+                            <image class="test__img-2" src="./assets/testimonialphoto.jfif" alt=""></image>
+                        </figure> 
+                        <div class="test__bottom--info">  
+                            <div class="test__profile--name">Charlotte Hale</div>
+                            <p class="test__profile--para"> Director, Delos Inc.</p>
+                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -394,10 +415,10 @@
             </div>
         </div>
     </section>
+</main>
 </body>
 <footer> 
     <div class="footer__container">
-        <div class="row">
             <div class="links">
                 <div class="link">
                     <h6 class="link__header">MAIN</h6>
@@ -443,12 +464,13 @@
                         <p class="footer__name">Treact Inc.</p>
                     </div>
                     <p class="footer__info">© 2018 Treact Inc. All Rights Reserved.</p>
+                    <div class="footer__brands">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-youtube"></i>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div>>
     </div>
 </footer>
 </html>
